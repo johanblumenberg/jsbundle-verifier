@@ -1,0 +1,27 @@
+{
+  "name": "jsbundle-verifier",
+  "version": "1.0.0",
+  "description": "Verifies JS bundles",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanblumenberg/jsbundle-verifier.git"
+  },
+  "author": "Johan Blumenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanblumenberg/jsbundle-verifier/issues"
+  },
+  "homepage": "https://github.com/johanblumenberg/jsbundle-verifier#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.50",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "uglify-js": "^1.3.5"
+  }
+}
